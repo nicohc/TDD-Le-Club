@@ -1,0 +1,15 @@
+<% provide(:title, @user.firstname) %>
+<h1>
+  Bonjour, <%= @user.firstname %>
+</h1>
+<br><br>
+Voici les informations entrées :
+<br><br>
+<p>Prénom: <%= @user.firstname %>
+<p>Nom: <%= @user.lastname %>
+<br>Email: <%= @user.email %></p>
+</p>
+<p> Votre ID est le :  <%= @user.id %>. Retenez le bien.</p>
+<br>
+<br>
+<p> <a href="/">Retourner à l'accueil</a> </p>
